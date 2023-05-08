@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier Prime', monospace;
+}
+
+body {
+    background-color: #ccc7b0;
+}
+
+.en{
+    width: 14ch;
+    animation: typing 2s steps(14), blink .5s infinite step-end alternate;
+}
+
+.es{
+    width: 17ch;
+    animation: typing 2s steps(17), blink .5s infinite step-end alternate;
+}
+
+.titulo {
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+#expresion {
+    width: 25ch;
+    height: 47px;
+    border-radius: 35px;
+    padding-left: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.rango{
+    text-decoration: none;
+    padding-left: 13px;
+    padding-right: 13px;
+    background-color: #89a8a3;
+    border-color: #6b2148;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 35px;
+}
+
+#language{
+    text-decoration: none;
+    width: 12ch;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #89a8a3;
+    border-color: #6b2148;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 35px;
+}
+
+.btf {
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #89a8a3;
+    border-color: #6b2148;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: .25s ease background;
+}
+
+.btf:hover {
+    background: #391d4d;
+    color: white;
+}
+
+.btf:active {
+    top: 4px;
+    -moz-box-shadow: 0px 2px 0px 0px #89a8a3;
+    -webkit-box-shadow: 0px 2px 0px 0px #89a8a3;
+    box-shadow: 0px 2px 0px 0px #89a8a3;
+}
+
+.btf-l{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btf-m{
+    border-radius: 0;
+}
+
+.btf-r{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.card-footer {
+    background-color: #a24252;
+}
+
+/*Cinta*/
+.cinta{
+    display: flex;
+    width: 595px;
+    height: 70px;
+    background-color: white;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.cinta div{
+    min-width: 56px;
+    min-height: 56px;
+    background-color: #89a8a3;
+    box-shadow: 0px 0px 10px;
+    margin: 5px;
+    border-color: #6b2148;
+    border-style: solid;
+    position: relative;
+}
+
+.flecha{
+    position: relative;
+    font-size: 40px;
+    color: #6b2148;
+}
+
+.grafo{
+    height: 250px;
+}
